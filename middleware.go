@@ -7,10 +7,11 @@ import (
 )
 
 // Request header
-// Authorization: Basic c29tZXVzZXJuYW1lOnNvbWVwYXNzd29yZA==
+// Authorization: Basic UkFXVVNFUk5BTUU6UkFXUEFTU1dPUkQ=
+// Encode with base64 USERNAME:PASSWORD
 const (
-	USERNAME = "someusername"
-	PASSWORD = "somepassword"
+	USERNAME = "RAWUSERNAME"
+	PASSWORD = "RAWPASSWORD"
 )
 
 func init() {
